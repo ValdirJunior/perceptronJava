@@ -15,10 +15,10 @@ public class Perceptron
 		w = new double[n+1];
 		for(int i = 0; i <= n; i++)
 		{
-			//w[0] = -0.5;
-			//w[1] = 0.6;
-			//w[2] = 0.6;
-			w[i] = -1 + (1 - (-1)) * r.nextDouble();
+			w[0] = -0.7;
+			w[1] = 0.1;
+			w[2] = 0.3;
+			//w[i] = -1 + (1 - (-1)) * r.nextDouble();
 			System.out.printf("w"+i+" = "+ w[i]+"\n");
 		}
 	}
